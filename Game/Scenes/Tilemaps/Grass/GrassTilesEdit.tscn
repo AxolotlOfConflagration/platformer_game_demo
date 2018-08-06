@@ -1,0 +1,402 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Sprites/Tiles/grass.png" type="Texture" id=1]
+
+[node name="GrassTiles" type="Node" index="0"]
+
+[node name="PlatformLeft" type="Sprite" parent="." index="0"]
+
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassLeftTopInsertedCorner" type="Sprite" parent="." index="1"]
+
+position = Vector2( 70, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 70, 0, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassRight" type="Sprite" parent="." index="2"]
+
+position = Vector2( 140, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 140, 0, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassSlopeDownCorner" type="Sprite" parent="." index="3"]
+
+position = Vector2( 210, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 210, 0, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassSlopeDown" type="Sprite" parent="." index="4"]
+
+position = Vector2( 280, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 280, 0, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassRightBottomInsertedCorner" type="Sprite" parent="." index="5"]
+
+position = Vector2( 350, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 350, 0, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="PlatformSingle" type="Sprite" parent="." index="6"]
+
+position = Vector2( 0, 70 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 70, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassRightTopInsertedCorner" type="Sprite" parent="." index="7"]
+
+position = Vector2( 70, 70 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 70, 70, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassLeft" type="Sprite" parent="." index="8"]
+
+position = Vector2( 140, 70 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 140, 70, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="DirtPlatformSingle" type="Sprite" parent="." index="9"]
+
+position = Vector2( 210, 70 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 210, 70, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassSingleTop" type="Sprite" parent="." index="10"]
+
+position = Vector2( 280, 70 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 280, 70, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="DirtJaggedBottom" type="Sprite" parent="." index="11"]
+
+position = Vector2( 0, 140 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 140, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="DirtSlopeUp" type="Sprite" parent="." index="12"]
+
+position = Vector2( 0, 210 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 210, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassLeftBottomCorner" type="Sprite" parent="." index="13"]
+
+position = Vector2( 70, 210 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 70, 210, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="PlatformCenter" type="Sprite" parent="." index="14"]
+
+position = Vector2( 140, 210 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 140, 210, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="BigPlatformRightCurvy2" type="Sprite" parent="." index="15"]
+
+position = Vector2( 210, 210 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 210, 210, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassTop" type="Sprite" parent="." index="16"]
+
+position = Vector2( 280, 210 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 280, 210, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="BigPlatformLeft" type="Sprite" parent="." index="17"]
+
+position = Vector2( 280, 280 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 280, 280, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="BigPlatformRightSlope" type="Sprite" parent="." index="18"]
+
+position = Vector2( 210, 280 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 210, 280, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassRightTopCorner" type="Sprite" parent="." index="19"]
+
+position = Vector2( 140, 280 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 140, 280, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="DirtTop" type="Sprite" parent="." index="20"]
+
+position = Vector2( 70, 280 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 70, 280, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="DirtSlopeDown" type="Sprite" parent="." index="21"]
+
+position = Vector2( 0, 280 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 280, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="DirtCenter" type="Sprite" parent="." index="22"]
+
+position = Vector2( 0, 350 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 350, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="DirtSlopeTopRight" type="Sprite" parent="." index="23"]
+
+position = Vector2( 70, 350 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 70, 350, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassLeftTopCorner" type="Sprite" parent="." index="24"]
+
+position = Vector2( 140, 350 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 140, 350, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="BigPlatformLeftSlope" type="Sprite" parent="." index="25"]
+
+position = Vector2( 210, 350 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 210, 350, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="BigPlatformSingle" type="Sprite" parent="." index="26"]
+
+position = Vector2( 280, 350 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 280, 350, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassBottom" type="Sprite" parent="." index="27"]
+
+position = Vector2( 0, 420 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 420, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="DirtSlopeTopLeft" type="Sprite" parent="." index="28"]
+
+position = Vector2( 70, 420 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 70, 420, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassSlopeUpCorner" type="Sprite" parent="." index="29"]
+
+position = Vector2( 140, 420 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 140, 420, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassSlopeUp" type="Sprite" parent="." index="30"]
+
+position = Vector2( 210, 420 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 210, 420, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="PlatfromRight" type="Sprite" parent="." index="31"]
+
+position = Vector2( 280, 420 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 280, 420, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassRightBottomCorner" type="Sprite" parent="." index="32"]
+
+position = Vector2( 70, 140 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 70, 140, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GrassLeftBottomInsertedCorner" type="Sprite" parent="." index="33"]
+
+position = Vector2( 140, 140 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 140, 140, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="BigPlatformRightCurvy" type="Sprite" parent="." index="34"]
+
+position = Vector2( 210, 140 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 210, 140, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="BigPlatformRight" type="Sprite" parent="." index="35"]
+
+position = Vector2( 280, 140 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 280, 140, 70, 70 )
+__meta__ = {
+"_edit_group_": true
+}
+
+
